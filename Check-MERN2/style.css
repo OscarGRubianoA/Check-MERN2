@@ -115,3 +115,22 @@ footer p{
 footer a{
     color: crimson;
 }
+@media only screen and (min-width: 600px) and (max-width: 627px) {
+    footer{
+        font-size: .9rem;
+    }
+    footer>p{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 628px) and (max-width: 991px) {
+    
+   footer{
+    justify-content: space-around;
+   }
+}
+@media only screen and (max-width: 599px) and (min-height:300px) {
+    footer{
+        flex-direction: column;
+    }
+}
